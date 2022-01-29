@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <div className="container">
-            <div className="left"></div>
+            <div className="left">
+                <img src="" alt="" />
+            </div>
             <div className="right"></div>
         </div>
     </div>

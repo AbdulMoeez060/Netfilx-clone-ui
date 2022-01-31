@@ -7,7 +7,7 @@ import Watch from "./pages/watch/Watch";
 
 
 function App() {
-  return <Login/>;
+  return <Home/>;
   
 }
 

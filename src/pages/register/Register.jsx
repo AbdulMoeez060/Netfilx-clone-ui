@@ -1,6 +1,16 @@
+import { useRef, useState } from "react";
 import "./register.scss";
 
 export default function Register() {
+
+    const [email,setEmail] = useState("");
+
+    const emailRef  = useRef();
+
+    const handleStart = ()=>{
+        
+    }
+
   return (
     <div className="register">
 
@@ -22,9 +32,9 @@ export default function Register() {
             </p>
 
             <div className="input">
-                <input type="email" placeholder="Email Address" />
+                <input type="email" placeholder="Email Address" ref={emailRef}/>
 
-                <button className="registerButton">Get Started</button>
+                <button className="registerButton" onClick={handleStart}>Get Started</button>
             </div>
         </div>
 
